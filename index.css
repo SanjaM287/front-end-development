@@ -1,0 +1,22 @@
+a[href*="google"]	{
+   color:rgb(61, 240, 61);
+  }
+  a[href*="link"]	{
+    color:red;
+   }
+
+.first-div >  p::after { 
+    content:  " - NEW ";
+    color: rgb(241, 241, 40);
+  }
+
+ #red {
+     color: red;
+ }
+ #blue {
+     color: blue;
+ }
+ #italic:hover {
+     font-style: italic;
+
+ }
