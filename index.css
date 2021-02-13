@@ -5,18 +5,20 @@ a[href*="google"]	{
     color:red;
    }
 
-.first-div >  p::after { 
+#first-div > p::after { 
     content:  " - NEW ";
     color: rgb(241, 241, 40);
   }
 
- #red {
-     color: red;
- }
- #blue {
-     color: blue;
- }
- #italic:hover {
-     font-style: italic;
-
- }
+  #second-div > p:nth-child(4) {
+   color: red;
+  }
+  #second-div > p:nth-child(2) {
+    color: red;
+   }
+   #second-div > p:nth-child(3) {
+    color:blue;
+   }
+p:nth-child(8):hover {
+font-style: italic;
+}
