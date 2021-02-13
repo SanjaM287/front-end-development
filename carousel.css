@@ -1,0 +1,67 @@
+#main-container {
+    width: 300px;
+    height: 220px;
+    position: relative;
+    perspective: 400px;
+    margin: 80px auto;
+}
+.tile {
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+    position: absolute;
+    margin: 0 auto;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+    opacity: 0.95;
+}
+#tile-container {
+    transform:translateZ(-300px) rotate3d(0, 1, 0, 0deg);
+    transform-style: preserve-3d;
+    animation-name: carousel-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+#tile-1 {
+    background-image: url(image/like.jpg);
+    background-color: rgb(224, 139, 139);
+    transform: rotateY(0deg) translateZ(300px);
+}
+#tile-2 {
+    background-image: url(image/idea.jpg);
+    background-color: rgb(125, 208, 214);
+    transform: rotateY(72deg) translateZ(300px);
+}
+#tile-3 {
+    background-image: url(image/clock.jpg);
+    background-color: rgb(87, 212, 129);
+    transform: rotateY(144deg) translateZ(300px);
+}
+#tile-4 {
+    background-image: url(image/star.jpg);
+    background-color: rgb(235, 223, 63);
+    transform: rotateY(216deg) translateZ(300px);
+}
+#tile-5 {
+    background-image: url(image/note.jpg);
+    background-color: rgb(235, 112, 63);
+    transform: rotateY(288deg) translateZ(300px);
+}
+
+@keyframes carousel-animation {
+0% {
+    transform:translateZ(-300px) rotate3d(0, 1, 0, 0deg);
+}
+45% {
+    transform:translateZ(-300px) rotate3d(0, 1, 0, 160deg);
+}
+55% {
+    transform:translateZ(-300px) rotate3d(0, 1, 0, 160deg);
+}
+100% {
+    transform:translateZ(-300px) rotate3d(0, 1, 0, 360deg);
+}
+}
