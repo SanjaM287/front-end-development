@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: calc(100vw -100px);
+    cursor: pointer;
+}
+.container {
+    width: calc(100vw -100px);
+    height: 100vh;
+    background-image: url(./slike/fiksni.jpg);
+    background-size: cover;
+    opacity: 0.8;
+    
+}
+.container > h1 {
+    text-align: center;
+    color: rgb(250, 1, 1);
+    font-size: 45px;   
+}
+.container > h2 {
+    text-align: center;
+    color: rgb(250, 1, 1);
+    font-size: 40px;   
+}
+.container > h1 {
+    padding-top: 200px;
+}
+
+
+.container1 {
+    width: calc(100vw -100px);
+    height: 200vh;
+    margin: 40px;
+       
+}
+.container1 > h1 {
+    text-align: center;
+    color: rgb(197, 14, 14);
+    font-size: 40px;  
+}
+.container1 > h2 {
+    text-align: center;
+    color: rgb(187, 37, 37);
+    font-size: 30px;   
+}
+.container1 > ul {
+    font-size: 18px;
+}
+.container1 > p {
+    font-size: 18px;
+}
+
+
+
+.container2 > h1 {
+    text-align: center;
+    color: rgb(197, 14, 14);
+    font-size: 40px;  
+}
+.container2 > h2 {
+    text-align: center;
+    color: rgb(187, 37, 37);
+    font-size: 30px;   
+}
+.container2 > img {
+ margin-left: 340px;
+
+}
+#image2 {
+    margin-left: 280px;  
+}
+#image3 {
+    margin-left: 290px;  
+}
+#image4 {
+    margin-left: 250px;  
+}
+#image5 {
+    margin-left: 220px;  
+}
+#image6 {
+    margin-left: 130px;  
+}
+#image7 {
+    margin-left: 70px;  
+}
+.container2 > p {
+  text-align: center;
+    margin-left: 250px;
+    width: 60%;
+}
+
+
+.container3 {
+    width: calc(100vw -100px);
+    margin: 70px;
+       
+}
+.container3 > h1 {
+    text-align: center;
+    color: rgb(250, 1, 1);
+    font-size: 40px;   
+}
+.container3 > h2 {
+    text-align: center;
+    color: rgb(187, 37, 37);
+    font-size: 30px;   
+}
+.container3 > ul {
+    font-size: 25px;
+}
+.container3 > p {
+    font-size: 18px;
+}
+
+
+
+
+
+.container4 {
+    width: calc(100vw -100px);
+    margin: 70px;
+}  
+
+.container4 > h1 {
+    text-align: center;
+    color: rgb(250, 1, 1);
+    font-size: 40px;   
+}
+.container4 > h2 {
+    text-align: center;
+    color: rgb(187, 37, 37);
+    font-size: 30px;   
+}
+
+.container4 > ul {
+    font-size: 25px;
+}
+.container4 > p {
+    font-size: 18px;
+}
+.images {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    padding: 80px;
+}
+.images > img {
+    width: 500px;
+    height: 700px;
+    padding: 10px;
+  
+}
+#slika:hover {
+    opacity: 0.6;
+}
+#image {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    color: crimson;
+    font-size: 25px;
+}
